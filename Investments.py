@@ -6,7 +6,7 @@ import time
 import requests
 import json
 
-#Pull investment projects from CrowdCube website and puts them into MongDB
+#Pull investment projects from CrowdCube website and put them into MongDB
 def pullCrowdCubeInvestments( coll ):
 	
 	req = requests.get('https://www.crowdcube.com/investments')
